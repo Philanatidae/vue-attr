@@ -1,6 +1,6 @@
 {
   "name": "vue-attr",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Insert attributes into rendered HTML from Vue",
   "main": "vue-attr.js",
   "repository": "git@github.com:pjrader1/vue-attr.git",

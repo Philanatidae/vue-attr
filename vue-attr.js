@@ -4,9 +4,9 @@
 
     vueAttr.install = function(Vue) {
         Vue.directive('attr', function(el, binding) {
-            if(el.arg) {
+            if(binding.arg) {
                 if(el) {
-                    el.setAttribute(el.arg, binding.value || binding.expression);
+                    el.setAttribute(binding.arg, binding.value || binding.expression);
                 }
             } else {
                 console.error('[vue-attr] attribute type argument is required.');
