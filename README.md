@@ -11,9 +11,13 @@ You can install vue-attr with npm:
 
     npm install vue-attr
 
-You can then use import it:
+You can then import it:
 
     var VueAttr = require('vue-attr')
+    Vue.use(VueAttr);
+
+Or, using ES6 imports:
+    import VueAttr from 'vue-attr'
     Vue.use(VueAttr);
 
 ### Direct include
