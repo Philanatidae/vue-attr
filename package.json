@@ -1,0 +1,16 @@
+{
+  "name": "vue-attr",
+  "version": "1.0.0",
+  "description": "Insert attributes into rendered HTML from Vue",
+  "main": "vue-attr.js",
+  "repository": "git@github.com:pjrader1/vue-attr.git",
+  "author": "Philip Rader",
+  "license": "Unlicense",
+  "private": false,
+  "devDependencies": {
+    "uglify-js": "^3.1.0"
+  },
+  "scripts": {
+    "build": "uglifyjs vue-attr.js -c -m > vue-attr.min.js"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "vue-attr",
+  "description": "Insert attributes into rendered HTML from Vue",
+  "main": "vue-attr.js",
+  "authors": [
+    "Philip Rader"
+  ],
+  "license": "Unlicense",
+  "homepage": "https://github.com/pjrader1/vue-attr",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
