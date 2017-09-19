@@ -1,6 +1,9 @@
 # vue-attr
 Insert attributes into rendered HTML from Vue
 
+**This project is no longer maintained**
+Vue updated to correct  the ```slot``` issue that this repository served to fix temporarily. I will leave this repository public but will no longer actively maintain it.
+
 ## Introduction
 While using Vue with custom elements, I noticed that the ```slot``` attribute was not working correctly. Upon further inspection, it appeared that Vue was absorving the ```slot``` attribute regardless of whether a parent node had a ```<slot>``` tag with the same name of the ```slot``` attribute. I created this Vue directive as a quick, temporary fix until the issue can be corrected within Vue.
 
